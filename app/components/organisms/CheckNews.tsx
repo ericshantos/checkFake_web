@@ -16,11 +16,11 @@ export const CheckNews: React.FC<Props> = ({ onResults }) => {
     handleSubmit
   } = useFakeCheck(onResults);
 
-  return (
-    <Block className="bg-white p-6 rounded-lg shadow-md">
+   return (
+    <Block className=" bg-white p-4 md:p-6 rounded-lg shadow-md">
       <Heading 
-      level={HEADINNG_LEVEL.H2}
-        className="text-xl font-semibold mb-4"
+        level={HEADINNG_LEVEL.H2}
+        className="text-lg md:text-xl font-semibold mb-4"
       >
         Verificar Notícia
       </Heading>
@@ -37,7 +37,7 @@ export const CheckNews: React.FC<Props> = ({ onResults }) => {
         <button
           type="submit"
           disabled={loading}
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50"
+          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 text-sm md:text-base"
         >
           {loading ? (
             <Badge className="flex items-center justify-center">

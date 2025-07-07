@@ -11,10 +11,10 @@ export const Results: React.FC<Props> = ({ data }) => {
   const isReal = data.veracity === 'real';
 
   return (
-    <Block className="bg-white p-6 rounded-lg shadow-md">
+    <Block className="bg-white p-4 md:p-6 rounded-lg shadow-md">
       <Heading 
         level={HEADINNG_LEVEL.H2} 
-        className="text-xl font-semibold mb-4"
+        className="text-lg md:text-xl font-semibold mb-4"
       >
         Resultado da Análise
       </Heading>
@@ -58,7 +58,7 @@ export const Results: React.FC<Props> = ({ data }) => {
         </Block>
       </Block>
 
-      <Block className="mt-6 border-t border-gray-200 pt-4">
+      <Block className="mt-4 border-t border-gray-200 pt-4">
         <Heading 
           level={HEADINNG_LEVEL.H3} 
           className="text-sm font-medium text-gray-700"
@@ -67,7 +67,7 @@ export const Results: React.FC<Props> = ({ data }) => {
         </Heading>
         <List 
           as={LIST_TYPE.DL} 
-          className="mt-2 grid grid-cols-1 gap-x-4 gap-y-4 sm:grid-cols-2"
+          className="mt-2 grid grid-cols-1 gap-4 sm:grid-cols-2"
         >
           <Block>
             <dt className="text-sm text-gray-500">Limiar de Confiança</dt>

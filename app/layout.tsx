@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "FakeCheck Web",
   description: "Um serviço simples e direto para identificar fake news online.",
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1'
 };
 
 export default function RootLayout({
