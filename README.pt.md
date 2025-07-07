@@ -1,3 +1,5 @@
+[🇬🇧] Read in English
+
 # FakeCheck Web
 
 *Um serviço simples e direto para identificar fake news online*

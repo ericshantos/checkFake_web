@@ -1,3 +1,5 @@
+[🇧🇷] [Lê em português](README.pt.md)
+
 # FakeCheck Web  
 
 *A simple and straightforward service to identify online fake news*  
